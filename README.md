@@ -9,8 +9,8 @@ just download it and use a terminal to open the folder.
 
 Use data_template.xlsx to store the data of students/employees, then in shell, run:
 
-./mark.py [-i | --input=]<data_template.xlsx> [-o | --output=]<output directory> [[-n |--number=]<index> | [-a| --all]]
-[-t |--type=]<form type>
+./mark.py [-i | --input=] data_template.xlsx [-o | --output=] output directory [[-n |--number=] index number | [-a| --all]]
+[-t |--type=] form type
 
 "-i": parameter defines where the input file is.
 
