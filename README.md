@@ -1,5 +1,5 @@
 # FeedbackForm-Generating-System
-I create a python3.4 script to automatically generate feedback forms for student.
+I create a python3.4 script to automatically generate feedback forms for students/employees.
 
 ##Installation:
 
