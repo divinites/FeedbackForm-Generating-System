@@ -122,7 +122,6 @@ class Profiles:
                 mark_data = i
         return mark_data[1:]
 
-
     @property
     def mark_weight(self):
         mmark = file_process(self.students_profile, 'm')

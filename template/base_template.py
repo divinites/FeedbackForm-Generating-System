@@ -16,8 +16,7 @@ class FeedbackForm:
         self.result = Profiles(file)
         self.file = file
         self.stud_no = stud_no
-        exec(stud_no + "= Document()")
-        exec("self.docx=DocWrapper(" + stud_no + ")")
+        self.docx = DocWrapper(Document())
         assert isinstance(self.docx, DocWrapper)
 
     def read_file(self, file):
